@@ -24,7 +24,9 @@ export default function CreateProfile() {
   if (!form.name) return alert('Pet name is required');
   setLoading(true);
   try {
-    const res = await fetch('http://localhost:4000/api/profiles', {
+    // const res = await fetch('http://localhost:4000/api/profiles', {
+
+    const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:4000/api'}/profiles`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...form, vaccinations })

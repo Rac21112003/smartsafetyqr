@@ -8,7 +8,7 @@ export default function LandingPage() {
       <div className="text-center mb-12">
         <div className="text-5xl mb-4">🐾</div>
         <h1 className="text-5xl font-extrabold mb-3 bg-gradient-to-r from-[#2DD4BF] to-[#0EA5E9] bg-clip-text text-transparent">
-          DoggiePass
+          Smart Safety QR
         </h1>
         <p className="text-lg text-slate-300 mb-8">Your pet's identity, always on them.</p>
         <button
